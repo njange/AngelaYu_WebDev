@@ -1,0 +1,26 @@
+* {
+    background-color: black;
+    font-family: 'libre baskerville regular';
+    color: white;
+    text-align: center;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 5px solid white;
+
+}
+
+div {
+  padding: 10px;
+  
+}
