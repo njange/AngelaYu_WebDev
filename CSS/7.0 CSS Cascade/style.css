@@ -5,8 +5,20 @@
   padding: 10px;
 }
 
-p {
+#outer-box {
+  background-color: purple;
+  padding: 10px;
+}
+
+.inner-box {
+  background-color: red;
+  padding: 10px;
+}
+
+text {
   color: yellow;
-  margin: 0;
-  padding: 0;
+}
+
+.white-text {
+  color: white;
 }
