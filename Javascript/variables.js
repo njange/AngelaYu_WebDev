@@ -1,1 +1,2 @@
-alert("Hello, World!")
+var myName = "James";
+alert(myName)
