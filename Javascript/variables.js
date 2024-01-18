@@ -1,2 +1,1 @@
-var myName = "James";
-alert(myName)
+alert("Hello World!");
