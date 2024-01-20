@@ -40,3 +40,4 @@ function beepersLeft() {
    putBeeper();
    move();
 }
+
