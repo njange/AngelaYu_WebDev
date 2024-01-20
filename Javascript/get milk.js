@@ -10,7 +10,7 @@ function getMilk(money) {
    console.log("moveRight");
 
     var numberOfBottles = Math.floor(money / 1.5);
-    console.log("buy" + numberOfBottles + "bottles of milk");
+    console.log("buy " + numberOfBottles + " bottles of milk");
     
    console.log("moveLeft");
    console.log("moveLeft");
