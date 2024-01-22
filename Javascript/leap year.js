@@ -3,11 +3,15 @@ function isLeap(year) {
         console.log("Not leap year.");
     }
     else if (year % 100 === 0) {
-        console.log("Leap year.");
+        if (year % 400 === 0) {
+            console.log("Leap year.");
+        } else {
+            console.log("Not leap year.");
+        }
     }
-    else (year % 400 === 0) {
+    else {
         console.log("Leap year.");
     }
 }
 
-isLeap(2000);
+isLeap(2001);
