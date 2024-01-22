@@ -13,5 +13,3 @@ function isLeap(year) {
         console.log("Leap year.");
     }
 }
-
-isLeap(2001);
