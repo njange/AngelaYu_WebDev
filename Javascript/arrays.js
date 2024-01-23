@@ -6,4 +6,4 @@ console.log(guestList[1]);
 
 if (guestList.includes(name)){
     console.log("Welcome " + name)}
-else {console.log("Not found.")}
+else {console.log("Sorry maybe next time.")}
