@@ -6,8 +6,17 @@ document.querySelectorAll(".drum")[i].addEventListener("click", function () {
     var buttonInnerHTML = this.innerHTML;
 
     makeSound(buttonInnerHTML);
-    
-    switch (buttonInnerHTML){
+
+});
+}
+
+document.addEventListener("keypress", function(event){
+    console.log(event);
+
+});
+
+function makeSound(key){
+    switch (key){
         case "w":
             var tom1 = new Audio("sounds/tom-1.mp3");
             tom1.play();
@@ -45,7 +54,9 @@ document.querySelectorAll(".drum")[i].addEventListener("click", function () {
 
         default: console.log(buttonInnerHTML);
     }
-});
+
+  
+};
 document.querySelector("button").addEventListener("click", function (){
 
     var buttonInnerHTML = this.innerHTML;
@@ -88,7 +99,7 @@ document.querySelector("button").addEventListener("click", function (){
         default: console.log(buttonInnerHTML);
     }
 });
-}
+
 
 document.addEventListener("keydown", function(event){ alert("Key was pressed");});
 
