@@ -86,7 +86,7 @@ document.querySelector("button").addEventListener("click", function (){
             snare.play();
             break;
 
-        case "k":
+        case "k": 
             var crash = new Audio("sounds/crash.mp3");
             crash.play();
             break;
