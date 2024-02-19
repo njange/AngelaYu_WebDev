@@ -11,7 +11,7 @@ document.querySelectorAll(".drum")[i].addEventListener("click", function () {
 }
 
 document.addEventListener("keypress", function(event){
-    console.log(event);
+    makeSound(event.key);
 
 });
 
