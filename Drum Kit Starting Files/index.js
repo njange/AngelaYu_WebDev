@@ -47,8 +47,6 @@ document.querySelector("button").addEventListener("click", function (){
 });
 }
 
-document.addEventListener("keydown", function(event){
-    this.alert("Key was pressed");
-});
+document.addEventListener("keydown", function(event){ alert("Key was pressed");});
 
  
