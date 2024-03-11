@@ -7,12 +7,12 @@ app.get("/", (req, res) => {
     res.send("<h1>Hello World!</h1>");
 });
 
-app.get("/", (req, res) => {
-    res.send("<h1>Hello World!</h1>");
+app.get("/about", (req, res) => {
+    res.send("<h1>About me: I am a web developer.");
 });
 
-app.get("/", (req, res) => {
-    res.send("<h1>Hello World!</h1>");
+app.get("/contact", (req, res) => {
+    res.send("<h1>Contact me at:");
 });
 
 
