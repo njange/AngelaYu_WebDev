@@ -7,7 +7,8 @@ const app = express();
 const port = 3000;
 
 app.get("/", (req, res) => {
-  res.sendFile(__dirname + "/public/index.html");
+  console.log(__dirname + "/public/index.html"); //listening to the path
+  res.sendFile(__dirname + "/public/index.html"); //path to the file index.html
 });
 
 app.listen(port, () => {
